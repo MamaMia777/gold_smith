@@ -5,22 +5,17 @@ import { styles } from '../styles'
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col sm:flex-row lg:flex-row items-center`}>
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col gap-[4rem] sm:flex-row lg:flex-row items-center`}>
         <div className='w-full'>
-          <h1 className='font-black lg:text-[50px] lg:leading-[30px]'>Скорость. Качество.</h1>
-          <h1 className='font-black text-tg lg:text-[45px]'>Надежность. Гарантия.</h1>
-          <p className={`${styles.sectionSubText} mt-5`}>Желаете создать бота для пассивоного заработка ?</p>
-          <p className={`${styles.sectionSubText} mt-5`}>Мечтаете ДЕШЕВО и БЫСТРО автоматизировать свой БИЗНЕС ?</p>
-          <p className={`${styles.sectionSubText} mt-5`}>Сделайте заказ прямо сейчас в 2 клика !</p>
+          <h1 className='font-black lg:text-[50px] lg:leading-[30px] '>Sveicināti mūsu mājaslapā!</h1>
+          <p className={`${styles.sectionSubText} mt-10 text-justify`}>Jau vairāk kā 12 gadus esam veltījuši sevi skaistu un augstas kvalitātes rotu radīšanai, izmantojot pilnu ražošanas ciklu. Sākot no sākotnējā 3D modelēšanas dizaina līdz galīgā produkta ražošanai, mēs iesaistāmies katrā procesa posmā, lai nodrošinātu, ka katrs rotas gabals, ko mēs radām, ir patiesa mākslas darbība.</p>
 
-          <a href="#contact">
-            <div className='px-10 py-4 text-white bg-tg w-fit rounded-[25px] mt-5 font-bold hover:text-tg hover:bg-white'>ЗАКАЗАТЬ</div>
-          </a>
         </div>
         <div className='relative scale-75 sm:scale-100 xl:scale-150'>
           <motion.img
-            src="./phone.png"
-            alt="phone"
+            src="./ring.png"
+            alt="ring"
+            className='w-[500px]'
             animate={{
               y: [0, 30, 0]
             }}

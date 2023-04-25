@@ -31,19 +31,27 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Решать проблемы автоматически",
+        title: "3D MODELĒŠANA",
         icon: web,
     },
     {
-        title: "Общаться и отвечать клиентам",
+        title: "3D DRUKĀŠANA",
         icon: mobile,
     },
     {
-        title: "Делать рассылки, проверки и сверки",
+        title: "METĀLA LIEŠANA",
         icon: backend,
     },
     {
-        title: "Финансовые услуги, работа с криптоволютой",
+        title: "LĀZERA GRAVĒŠANA",
+        icon: creator,
+    },
+    {
+        title: "3D VIZUALIZĀCIJA",
+        icon: creator,
+    },
+    {
+        title: "MĀJAS LAPAS RAŽOŠANA",
         icon: creator,
     },
 ];
