@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-10 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
-          to={'https://t.me/vkrasno'}
+          to={''}
           className='flex items-center gap-2'
           onClick={() => {
             setActive('');
@@ -20,7 +20,7 @@ const Navbar = () => {
           }}
         >
           <img src="./telegram.png" alt="logo" className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px]  cursor-pointer flex'>Victor &nbsp;<span className="sm: block">| +371 29553633</span></p>
+          <p className='text-white text-[18px]  cursor-pointer flex'>Alexander &nbsp;<span className="sm:block">| +371 xxxxxxxx</span></p>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>{
