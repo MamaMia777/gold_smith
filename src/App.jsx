@@ -1,8 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import { About, Contact, Navbar, Tech, StarsCanvas, Hero } from "./components"
 import First from './components/First'
-import Second from './components/Second'
-import Third from './components/Third'
+import Video from './components/Video'
 const App = () => {
 
   return (
@@ -15,8 +14,7 @@ const App = () => {
         </div>
         <About />
         <First />
-        {/* <Second /> */}
-        {/* <Third /> */}
+        <Video />
         <Tech />
         <div className='relative z-0'>
           <Contact />

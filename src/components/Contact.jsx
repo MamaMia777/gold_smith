@@ -6,10 +6,7 @@ import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
-import { EarthCanvas } from './canvas'
-// template_ufpjb3o
-// service_b7fyjpl
-// CxnOV_D4Z8_YF0tmS
+import DiamondCanvas from './canvas/Diamond'
 const Contact = () => {
   const formRef = useRef()
   const [form, setForm] = useState({
@@ -93,7 +90,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
 
-        <EarthCanvas />
+        <DiamondCanvas />
       </motion.div>
     </div>
   )
