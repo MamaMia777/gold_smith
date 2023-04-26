@@ -7,7 +7,7 @@ import CanvasLoader from "../Loader";
 const Diamond = () => {
   const diamond = useGLTF("./diamond/scene.gltf")
   return (
-    <primitive object={diamond.scene} scale={2} position-y={0} rotation-y={0} />
+    <primitive object={diamond.scene} scale={2} position-y={0} rotation-z={1} />
   );
 };
 
