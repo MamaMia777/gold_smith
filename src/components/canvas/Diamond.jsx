@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Diamond = () => {
-  const diamond = useGLTF("./diamond/scene.gltf")
+  const diamond = useGLTF("./d2/scene.gltf")
   return (
     <primitive object={diamond.scene} scale={2} position-y={0} rotation-z={1} />
   );

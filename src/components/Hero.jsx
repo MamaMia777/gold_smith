@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col gap-[4rem] sm:flex-row lg:flex-row items-center`}>
         <div className='w-full'>
-          <h1 className='font-black lg:text-[50px] lg:leading-[30px] '>Sveicināti mūsu mājaslapā!</h1>
+          <h1 className={`${styles.sectionHeadText} bg-gradient-to-r from-yellow-500 via-yellow-200 to-yellow-700 text-clip bg-clip-text text-transparent`}>Sveicināti mūsu mājaslapā!</h1>
           <p className={`${styles.sectionSubText} mt-10 text-justify`}>Jau vairāk kā 12 gadus esam veltījuši sevi skaistu un augstas kvalitātes rotu radīšanai, izmantojot pilnu ražošanas ciklu. Sākot no sākotnējā 3D modelēšanas dizaina līdz galīgā produkta ražošanai, mēs iesaistāmies katrā procesa posmā, lai nodrošinātu, ka katrs rotas gabals, ko mēs radām, ir patiesa mākslas darbība.</p>
 
         </div>
