@@ -10,7 +10,9 @@ const Footer = () => {
     <nav className={`${styles.paddingX} w-full py-5 bottom-0 z-10 bg-primary flex justify-center flex-col items-center gap-2`}>
       <div className='flex justify-center items-center gap-2  '>
         <img className='w-[30px] cursor-pointer' src="./instagram.png" alt="" />
-        <span>+371 20015925</span>
+        <span>
+          <a href="tel:+37120015925">+371 20015925</a>
+        </span>
       </div>
       <span className='text-secondary cursor-pointer hover:text-gray-500'>Terms of Service</span>
 
