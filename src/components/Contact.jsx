@@ -56,7 +56,7 @@ const Contact = () => {
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden items-center justify-between'>
-      <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+      <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-[#09322b] p-8 rounded-2xl w-full'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form
@@ -66,18 +66,18 @@ const Contact = () => {
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your name</span>
-            <input className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="text" name="name" value={form.name} onChange={handleChange} placeholder={"What's your name?"} />
+            <input className='bg-[#0b4037] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="text" name="name" value={form.name} onChange={handleChange} placeholder={"What's your name?"} />
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Email</span>
-            <input className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="email" name="email" value={form.email} onChange={handleChange} placeholder={"What's your email?"} />
+            <input className='bg-[#0b4037] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="email" name="email" value={form.email} onChange={handleChange} placeholder={"What's your email?"} />
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your order</span>
-            <textarea rows="7" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="text" name="message" value={form.message} onChange={handleChange} placeholder={"What do you want to create ..."} />
+            <textarea rows="7" className='bg-[#0b4037] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' type="text" name="message" value={form.message} onChange={handleChange} placeholder={"What do you want to create ..."} />
           </label>
 
-          <button type="submit" className='bg-tertiary py-3 px-8 w-fit outline-none text-white font-bold shadow-md shadow-primary rounded-xl'>
+          <button type="submit" className='bg-[#0b4037] py-3 px-8 w-fit outline-none text-white font-bold shadow-md shadow-primary rounded-xl'>
             {loading ? 'Sending...' : 'Send'}
           </button>
 
@@ -89,7 +89,7 @@ const Contact = () => {
         // variants={slideIn('right', 'tween', 0.2, 1)}
         src="./diamond.png"
         alt="diamond"
-        className='w-[400px] h-[400px]'
+        className='w-[200px] h-[200px] md:w-[400px] md:h-[400px]'
         animate={{
           y: [0, 50, 0]
         }}
