@@ -15,7 +15,7 @@ const Hero = () => {
           <motion.img
             src="./ring.png"
             alt="ring"
-            className='w-[500px]'
+            className='w-[300px] px-4'
             animate={{
               y: [0, 30, 0]
             }}
