@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="tel:+37120015925">+371 20015925</a>
         </span>
       </div>
-      <span className='text-secondary cursor-pointer hover:text-gray-500'>Terms of Service</span>
+      <a className='text-secondary cursor-pointer hover:text-gray-500' href='./tos.docx'>Terms of Service</a>
       <span>Copyright GoldSmith3D © All Rights Reserved</span>
 
     </nav>
