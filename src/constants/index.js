@@ -16,6 +16,8 @@ import {
     figma,
     docker,
     threejs,
+    cube,
+    circle
 } from "../assets";
 
 export const navLinks = [
@@ -48,11 +50,11 @@ const services = [
     },
     {
         title: "3D VIZUALIZĀCIJA",
-        icon: creator,
+        icon: cube,
     },
     {
         title: "MĀJAS LAPAS RAŽOŠANA",
-        icon: creator,
+        icon: circle,
     },
 ];
 

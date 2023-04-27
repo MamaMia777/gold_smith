@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { About, Contact, Navbar, Tech, StarsCanvas, Hero } from "./components"
 import First from './components/First'
 import Video from './components/Video'
+import Footer from './components/Footer'
 const App = () => {
 
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   )
