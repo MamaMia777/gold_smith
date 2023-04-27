@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { styles } from '../styles'
-import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
 
 
 const Footer = () => {
@@ -15,6 +12,7 @@ const Footer = () => {
         </span>
       </div>
       <span className='text-secondary cursor-pointer hover:text-gray-500'>Terms of Service</span>
+      <span>Copyright GoldSmith3D © All Rights Reserved</span>
 
     </nav>
   )
