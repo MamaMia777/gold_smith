@@ -31,9 +31,9 @@ const Contact = () => {
       'template_1qkis1j',
       {
         from_name: form.name,
-        to_name: 'carthagen',
+        to_name: 'goldsmith3d',
         from_email: form.email,
-        to_email: 'carthagen777@gmail.com',
+        to_email: 'infogoldsmith3d@gmail.com',
         message: form.message
       },
       'FzIZQM-SvUUM2aJUE'
