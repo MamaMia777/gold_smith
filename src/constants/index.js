@@ -32,10 +32,12 @@ const services = [
     {
         title: "3D VIZUALIZĀCIJA",
         icon: cube,
+        extraText: 'Mēs esam speciālisti juvelierizstrādājumu jomā un piedāvājam 3D vizualizācijas pakalpojumus. Mūsu komanda rada detalizētus un dzīvīgus 3D attēlus, lai jūsu juvelierizstrādājumi būtu pamanāmi un izcilu no citiem. Mēs garantējam augstāko kvalitāti un profesionālu pieeju, lai jūsu dizains izskatītos tāpat kā dzīvē. Sazinieties ar mums, lai uzzinātu vairāk par 3D vizualizācijas pakalpojumiem un kā mēs varam palīdzēt jums.'
     },
     {
         title: "MĀJAS LAPAS RAŽOŠANA",
         icon: circle,
+        extraText: 'Mēs piedāvājam mājas lapu izveidi speciāli juvelieriem, dizaineriem un juvelierizstrādājumu veikaliem. Mūsu komanda veido modernas un pievilcīgas mājas lapas, kas atspoguļo jūsu uzņēmumu vai zīmolu. Mūsu mājas lapas ir viegli pārvaldāmas un piedāvā iespēju ievietot produktu galerijas, aprakstus, cenas un pasūtījumu veikšanas funkcionalitāti. Sazinieties ar mums, lai uzzinātu vairāk par mūsu mājas lapu izveidošanas pakalpojumiem juvelieriem, dizaineriem un juvelierizstrādājumu veikaliem.'
     },
 ];
 
